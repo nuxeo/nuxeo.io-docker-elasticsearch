@@ -3,5 +3,3 @@ path:
   logs: /data/log
   plugins: /data/plugins
   work: /data/work
-bootstrap:
-  mlockall: true
