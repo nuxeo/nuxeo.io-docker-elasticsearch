@@ -4,5 +4,9 @@ path:
   plugins: /data/plugins
   work: /data/work
 http:
+  port: "${HTTP_PORT}"
   cors:
-    enabled: true 
+    enabled: true
+transport:
+  tcp:
+    port: "${TRANSPORT_PORT}"
